@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # APHL NIST GVT Reference Data
 
 This repository contains reference data consumed by the NIST Global Validation Tool (GVT) for Association of Public Health Laboratories (APHL) profiles. The data is organized by specific public health laboratory domains and includes value sets, observations, orders, tests, and profile definitions.
@@ -6,29 +5,28 @@ This repository contains reference data consumed by the NIST Global Validation T
 ## Folder Structure
 
 - **ARLN**: Anthrax Reference Laboratory Network data
-  - Profile definitions (Excel files)
+  - ARLN master spreadhseet (Excel)
   - Value sets (CSV)
   - Observations, Orders, Tests (CSV)
 
 - **ELR_FOUNDATION**: Electronic Lab Reporting Foundation data
-  - SPM4 Value Set (CSV)
+  - SPM-4 data (CSV)
 
 - **PHLIP**: Public Health Laboratory Interoperability Project data
-  - Profile definitions (Excel files)
-  - Value sets (CSV/Excel)
-  - MSH3/MSH4 segments (CSV)
+  - PHLIP master spreadhseet (Excel)
+  - Value sets (CSV)
+  - MSH-3/MSH-4 data (CSV)
   - Observations, Orders, Tests (CSV)
 
 - **Rabies**: Rabies testing profile data
-  - Profile definitions (Excel)
+  - Rabies master spreadhseet (Excel)
   - Value sets (CSV)
   - Observations, Orders, Tests (CSV)
 
 - **VPD**: Vaccine Preventable Diseases data
-  - IGAMT (Immunization Gateway Assessment and Monitoring Tool) VPD profiles (Excel)
-  - VPD profile definitions (Excel)
+  - VPD master spreadhseet (Excel)
   - Value sets (CSV)
-  - SPM4 segment (CSV)
+  - SPM-4 data (CSV)
   - Observations, Orders, Tests (CSV)
 
 ## File Types
@@ -39,14 +37,13 @@ This repository contains reference data consumed by the NIST Global Validation T
   - Observations: Clinical observation templates
   - Orders: Laboratory order templates
   - Tests: Laboratory test definitions
-  - Segment-specific files: HL7 message segment definitions (e.g., SPM4, MSH3, MSH4)
+  - Element-specific files: HL7 message segment definitions (e.g., SPM-4, MSH-3, MSH-4)
 
 ## Usage
 
 This data is intended for use with the NIST GVT tool to validate HL7 v2.5.1 messages against APHL-specific implementation guides. The reference data supports validation of public health laboratory reporting messages including:
 - Electronic Laboratory Reporting (ELR)
-- Immunization Information Systems (IIS)
-- Laboratory-specific reporting (Anthrax, Rabies, VPD)
+- Laboratory-specific reporting (ARLN, PHLIP, Rabies, VPD)
 
 ## Data Currency
 
