@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # APHL NIST GVT Reference Data
 
 This repository contains reference data consumed by the NIST Global Validation Tool (GVT) for Association of Public Health Laboratories (APHL) profiles. The data is organized by specific public health laboratory domains and includes value sets, observations, orders, tests, and profile definitions.
