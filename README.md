@@ -4,7 +4,7 @@ This repository contains reference data consumed by the NIST Global Validation T
 
 ## Folder Structure
 
-- **ARLN**: Anthrax Reference Laboratory Network data
+- **ARLN**: Antimicrobial Resistance Laboratory Network data
   - ARLN master spreadhseet (Excel)
   - Value sets (CSV)
   - Observations, Orders, Tests (CSV)
